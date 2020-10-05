@@ -13,7 +13,7 @@ Installation on OpenShift OKD
 OpenShift Requirements
 ======================
 
-1. Choose preferred cloud provider (this guide was tested in AWS, Azure & GCP)
+1. Choose preferred cloud provider. This guide was tested in AWS, Azure & GCP.
 
 2. Read `OpenShift documentation <https://docs.okd.io/latest/welcome/index.html>`_ to find out about provider-specific prerequisites
 
