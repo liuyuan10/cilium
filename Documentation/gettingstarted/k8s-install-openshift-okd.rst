@@ -46,7 +46,7 @@ Now, create configuration files:
    NOTE: the sample output below is showing the AWS provider, but
    it should work the same way with other providers
 
-.. code:: bash
+.. code:: shell-session
 
    $ openshift-install create install-config --dir "${CLUSTER_NAME}"
    ? SSH Public Key ~/.ssh/id_rsa.pub
