@@ -5,7 +5,8 @@ You can deploy the "connectivity-check" to test connectivity between pods.
 
 .. parsed-literal::
 
-    kubectl apply -f \ |SCM_WEB|\/examples/kubernetes/connectivity-check/connectivity-check.yaml
+    kubectl create ns cilium-test
+    kubectl apply -n cilium-test -f \ |SCM_WEB|\/examples/kubernetes/connectivity-check/connectivity-check.yaml
 
 It will deploy a series of deployments which will use various connectivity
 paths to connect to each other. Connectivity paths include with and without
