@@ -109,7 +109,7 @@ Next, render Cilium manifest:
 .. note:: If you make any changes to CIDRs in ``"${CLUSTER_NAME}/install-config.yaml"`` you need to make
    sure that ``clusterPoolIPv4PodCIDR`` and ``clusterPoolIPv4MaskSize`` reflect those changes.
 
-And copy Cilium manifest to ``${CLUSTER_NAME}/manifests``:
+Copy Cilium manifest to ``${CLUSTER_NAME}/manifests``:
 
 .. code:: bash
 
