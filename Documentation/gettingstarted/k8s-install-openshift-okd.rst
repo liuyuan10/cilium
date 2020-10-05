@@ -144,7 +144,7 @@ Next, firewall configuration must be updated to allow `Cilium
 ports <https://docs.cilium.io/en/v1.8/install/system_requirements/#firewall-rules>`_.
 Please note that ``openshift-install`` doesn't support custom firewall
 rules, so you will need to use one of the following scripts if you are
-using AWS or GCP, but it's not need on Azure.
+using AWS or GCP. Azure does not need additional configuration.
 
 .. note:: This has to be done just after ``INFO Waiting up to 40m0s for
    bootstrapping to complete...`` appears in the logs. It is safe to apply
